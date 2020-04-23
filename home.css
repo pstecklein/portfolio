@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-image: linear-gradient(#ddd, #fff);
+  width: 100%;
+  margin: 0;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: 100;
+    color: #555;
+    padding: 10px 0;
+    margin: 0;
+}
+
+h2,h3 {
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 2rem;
+  text-align: center;
+}
+
+h3 {
+  margin: 0;
+  padding: 20px 0;
+}
+
+p {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 100;
+  line-height: 2rem;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  height: 70px;
+  background-color: rgba(213, 225, 243, 0.5);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+li {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.name {
+  float: left;
+  font-family: monospace;
+  font-size: 2rem;
+  display: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.picture {
+  text-align: center;
+}
+
+.picture img {
+  text-align: center;
+  width: 100%;
+}
+
+.portfolio {
+  text-align: center;
+}
+
+.portfolio h2 {
+  padding-top: 50px;
+  margin: 0;
+  font-size: 3rem;
+  font-family: monospace;
+  text-shadow: 1px 2px 4px rgba(15,17,11,0.8);
+}
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+              0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+              0 12.5px 10px rgba(0, 0, 0, 0.06),
+              0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+              0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+              0 100px 80px rgba(0, 0, 0, 0.12);
+  min-height: 160px;
+  min-width: 240px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.box:hover {
+  background: (#000, 0.8);
+  opacity: 0.7;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+              0 6.7px 5.3px rgba(0, 0, 0, 0.048);
+}
+
+.knowledge {
+  background: url(images/knowledge.png), no-repeat;
+  background-size: cover;
+}
+
+.trivia {
+  background: url(images/starWarsTrivia.png), no-repeat;
+  background-size: cover;
+}
+
+.darwin {
+  background: url(images/darwin.png), no-repeat;
+  background-size: cover;
+}
+
+.modern {
+  width: 90%;
+  margin: 100px auto;
+}
+
+.modern h2 {
+  margin-bottom: 10px;
+}
+
+.media {
+    width: 90%;
+    margin: auto;
+}
+
+.responsive {
+  height: 300px;
+  border-radius: 20px;
+  margin: 50px auto;
+  background-image: linear-gradient(rgba(255, 233, 211, 0.2), rgba(233, 211, 190, 0.5));
+}
+
+.purpose {
+  height: 300px;
+  border-radius: 20px;
+  margin: 0 auto 50px;
+  background-image: linear-gradient(rgba(233, 211, 233, 0.2), rgba(211, 190, 211, 0.5));
+}
+
+.interactive {
+  height: 300px;
+  border-radius: 20px;
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(211, 233, 233, 0.2), rgba(150, 201, 201, 0.5));
+}
+
+footer {
+  height: 100px;
+  background-color: #ccc;
+}
+
+.reveal {
+    opacity: 0;
+    transform: translate(0, 20px);
+    transition: all 1s;
+}
+
+.reveal.visible {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+
