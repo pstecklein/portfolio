@@ -1,0 +1,73 @@
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    h2 {
+        font-size: 2.4rem;
+    }
+    h3 {
+        font-size: 2.2rem;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        height: 100%;
+        display: block;
+    }
+    li {
+      display: inline;
+      float: right;
+      padding: 20px 40px 0 0;
+    }
+    .name {
+        display: inline;
+        padding-left: 50px;
+    }
+}
+
+/*Large devices (desktops, 850px and up) for rounding picture and shrinking it*/
+@media (min-width: 850px) {
+    .picture img {
+        border-radius: 0 0 50px 50px;
+        width: auto;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    h2 {
+        font-size: 2.8rem;
+    }
+    
+    h3 {
+        font-size: 2.5rem;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .main {
+      display: flex;
+      flex-direction: row;
+    }
+    .picture img {
+        border-radius: 0 0 100px 0;
+    }
+    
+    h2 {
+        font-size: 3rem;
+    }
+    
+    h3 {
+        font-size: 2.8rem;
+    }
+}
+
+
+
+/*
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+*/
