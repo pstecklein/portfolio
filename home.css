@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: linear-gradient(#d4f2f2, #fff);
+  background-image: linear-gradient(rgba(255, 233, 211, 0.2), rgba(233, 211, 190, 0.5));
   width: 100%;
   margin: 0;
 }
@@ -56,7 +56,7 @@ nav {
   margin: 0;
   padding: 0;
   height: 70px;
-  background-color: rgba(213, 225, 243, 0.5);
+  background-color: rgb(235, 203, 108);
 }
 
 ul {
@@ -75,7 +75,7 @@ li {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #222;
 }
 
 .name {
@@ -96,7 +96,7 @@ a {
 .color-overlay {
   width: 100%;
   height: 100%;
-  background: #3d22f8; /* #fff858  - yellow */
+  background: #f9ef6b; /* #fff858  - yellow */
   opacity: 0.3;
   position: absolute;
 }
