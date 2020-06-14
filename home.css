@@ -71,7 +71,7 @@ a {
 }
 
 .header {
-  height: 100vh;
+  height: 60vh;
   width: 100%;
   background: #000 url('images/prestonMountain.jpeg') no-repeat center;
   background-size: cover;
@@ -87,11 +87,12 @@ a {
 }
 
 .about {
+  width: 80%;
+  margin: auto;
+  padding: 25px 0 0 25px;
   font-size: 3rem;
   line-height: 3rem;
-  color: #fff;
-  padding: 25px 0 0 25px;
-  width: 40%;
+  color: #000;
 }
 
 .portfolio {
