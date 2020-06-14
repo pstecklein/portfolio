@@ -25,6 +25,21 @@ h2,h3 {
   text-align: center;
 }
 
+.hello {
+  width: 90%;
+  margin: auto auto 50px;
+  padding: 25px 0 0 25px;
+  font-size: 3rem;
+  line-height: 5rem;
+  color: #333;
+}
+
+.hello span {
+  text-align: center;
+  color: #333;
+  font-size: 4rem;
+}
+
 h3 {
   margin: 0;
   padding: 20px 0;
@@ -87,24 +102,12 @@ a {
 }
 
 .about {
-  width: 80%;
+  width: 85%;
   margin: auto;
   padding: 25px 0 0 25px;
   font-size: 3rem;
   line-height: 3rem;
   color: #000;
-}
-
-.portfolio {
-  text-align: center;
-}
-
-.portfolio h2 {
-  padding-top: 50px;
-  margin: 0;
-  font-size: 3rem;
-  font-family: monospace;
-  text-shadow: 1px 2px 4px rgba(15,17,11,0.8);
 }
 
 .projects {
@@ -163,7 +166,7 @@ a {
 }
 
 .responsive {
-  height: 300px;
+  height: 320px;
   border-radius: 20px;
   margin: 50px auto;
   background-image: linear-gradient(rgba(255, 233, 211, 0.2), rgba(233, 211, 190, 0.5));
