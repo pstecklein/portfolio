@@ -71,7 +71,7 @@ a {
 }
 
 .header {
-  height: 600px;
+  height: 100vh;
   width: 100%;
   background: #000 url('images/prestonMountain.jpeg') no-repeat center;
   background-size: cover;
