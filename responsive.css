@@ -6,21 +6,6 @@
     h3 {
         font-size: 2.2rem;
     }
-    ul {
-        list-style: none;
-        margin: 0;
-        height: 100%;
-        display: block;
-    }
-    li {
-      display: inline;
-      float: right;
-      padding: 20px 40px 0 0;
-    }
-    .name {
-        display: inline;
-        padding-left: 50px;
-    }
 }
 
 /*Large devices (desktops, 850px and up) for rounding picture and shrinking it*/

@@ -1,10 +1,10 @@
 $(document).ready(function () {
     "use strict";
     $('.qLink').hide().fadeIn(4000);
-    $('.hello').hide().fadeIn(4000);
-    $('.about').hide().delay(1000).fadeIn(2000);
     $('.portfolio').hide().slideDown(3000);
     $('.projects').hide().fadeIn(3000);
+    $('.hello').hide().addClass('visible').fadeIn();
+    $('.about').hide().addClass('visible').fadeIn();
 });
 
 
