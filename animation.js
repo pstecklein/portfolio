@@ -3,8 +3,6 @@ $(document).ready(function () {
     $('.qLink').hide().fadeIn(4000);
     $('.portfolio').hide().slideDown(3000);
     $('.projects').hide().fadeIn(3000);
-    $('.hello').hide().addClass('visible').fadeIn();
-    $('.about').hide().addClass('visible').fadeIn();
 });
 
 

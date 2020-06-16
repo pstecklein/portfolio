@@ -23,12 +23,22 @@ h2,h3 {
   font-weight: 100;
   font-size: 2rem;
   text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+img.chevron {
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
 }
 
 .hello {
   width: 90%;
   margin: auto auto 50px;
-  padding: 25px 0 0 25px;
+  padding: 25px 0;
   font-size: 3rem;
   line-height: 5rem;
   color: #333;
@@ -38,25 +48,8 @@ h2,h3 {
   text-align: center;
   color: #333;
   font-size: 4rem;
-}
-
-
-
-h2.opening {
-    opacity: 0;
-    transform: translate(0, 100px);
-    transition: all 1s;
-}
-
-p.opening {
-    opacity: 0;
-    transform: translate(0, 500px);
-    transition: all 1s;
-}
-
-.opening.visible {
-    opacity: 1;
-    transform: translate(0,0);
+  margin: 0;
+  padding: 0;
 }
 
 h3 {
@@ -213,4 +206,24 @@ footer {
 .reveal.visible {
     opacity: 1;
     transform: translate(0,0);
+}
+
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+
+.svg-inline--fa.fa-w-14 {
+    width: 50%;
+}
+
+.fa-2x {
+    font-size: 2em;
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
 }
